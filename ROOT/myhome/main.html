@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<!--html 문서임을 선언-->
+<html>
+<!--hyper text markup Language 문서의 시작-->
+
+<head>
+  <!--문서에 붙이는 포스티잇같은 부가적인 설명, 페이지에 나타내는 각종 속성 및 시작시 불러올 함수-->
+  <meta charset="utf-8"><!-- 언어설정 중 utf-8로 설정해야 한글을 웹페이지상에서 깨지지 않고 불러올-->
+  <title>html</title>
+  <!--웹 페이지탭에 페이지 제목을 설정할수있다-->
+  <style>
+    body {
+      margin: 0px;
+      border: 0px;
+
+    }
+
+    .header {
+
+        background-color: rgb(0, 0, 0);
+    }
+
+    .header>img {
+
+    }
+
+    .header>h1 {
+      display: inline-block;
+      margin: 10px 0px 0px 0px;
+      padding:0px;
+      color:rgb(255, 255, 255);
+
+
+      position: relative;
+
+      font-size:500%;
+
+    }
+
+    .contents {
+      background-color: red;
+      height: 400px;
+      clear: left;
+    }
+
+    .main_frame {
+      float: left;
+
+    }
+
+    .acticle {
+
+      height: 400px;
+      background-color: rgb(102, 227, 255);
+
+    }
+  </style>
+</head>
+
+<body>
+  <!--실질적으로 보이는 페이지-->
+  <!--웹 화면에 띄워지는 실질적인 화면-->
+  <div class="header">
+    <img src="img\custom-logon.png" style="width:200px; float:left;" alt="">
+
+    <h1>산소미포함</h1>
+  </div>
+
+
+  <!--제목에 가까운 글을 쓸때.-->
+  <div class="contents">
+    <div class="main_frame"> <img src="mainposter.jpg" alt="mainposter" style="width:300px;"></div>
+
+    <div class="acticle">
+
+      <p>게임에 대해 우주 식민지 시뮬레이션 게임 산소 포함 안함 (Oxygen Not Included)
+        에서는 산소, 따뜻함 및 지속성의 부족이 식민지의 생존에 지속적으로 위협이된다는
+        것을 알 수 있습니다. 지하 소행성 생활의 위험을 통해 식민지 주민을 안내하고 단순히
+        생존하지 않고 번성 할 때까지 인구가 증가하는 것을 지켜보십시오 ...
+
+        숨쉬는 것을 잊지 마십시오.</p>
+
+    </div>
+  </div>
+  <!--이미지 입력-->
+  <h2><a href="story.html">스토리</a></h2>
+  <!--a태그는 링크를 나타냄. href를 동해 링크주소나 해당 #클래스명으로 이동가능.-->
+  <h2><a href="play.html">공략</a></h2>
+  <h2><a href="tolink.html">관련 사이트</a></h2>
+
+  <p>
+    <!--글의 문단-->
+    https://www.advancedwebranking.com/html/ - 많이 쓰이는 태그</br>
+    https://unsplash.com/ - 저작권이 없는 이미지사이트</br>
+    html specification - html명사(설명서)
+    https://disqus.com/ - 무료 댓글서비스 사이트
+  </p>
+  <input type="text" name="" value="" />
+
+
+
+  asdfasdfasdfasdfasdfasdfasdfasdfasdf
+
+
+  <div id="disqus_thread"></div>
+  <script>
+    /**
+     *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+     *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function() { // DON'T EDIT BELOW THIS LINE
+      var d = document,
+        s = d.createElement('script');
+      s.src = 'https://studybang.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <script id="dsq-count-scr" src="//studybang.disqus.com/count.js" async></script>
+
+
+  <!--Start of Tawk.to Script-->
+  <script type="text/javascript">
+    var Tawk_API = Tawk_API || {},
+      Tawk_LoadStart = new Date();
+    (function() {
+      var s1 = document.createElement("script"),
+        s0 = document.getElementsByTagName("script")[0];
+      s1.async = true;
+      s1.src = 'https://embed.tawk.to/5e7db22635bcbb0c9aaae808/default';
+      s1.charset = 'UTF-8';
+      s1.setAttribute('crossorigin', '*');
+      s0.parentNode.insertBefore(s1, s0);
+    })();
+  </script>
+  <!--End of Tawk.to Script-->
+
+
+
+
+
+
+
+
+</body>
+
+</html>
